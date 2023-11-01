@@ -240,6 +240,26 @@ main {
     }
 
 
+    .carousel-indicators .active {
+      background-color: #005200;
+  }
+
+  .carousel-indicators li {
+    position: relative;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #3fc95f;
+}
+
+
+
+
   @media screen and (min-width: 350px) and (max-width: 499px) {
   .roda-footer {
   background-color: #5fa05f;
