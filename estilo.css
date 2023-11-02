@@ -257,7 +257,12 @@ main {
     background-color: #3fc95f;
 }
 
-
+.whats {
+  width: 88px;
+  position: fixed;
+  left: 87%;
+  top: 77%;
+}
 
 
   @media screen and (min-width: 350px) and (max-width: 499px) {
@@ -265,6 +270,15 @@ main {
   background-color: #5fa05f;
   text-align: center;
   
+}
+
+
+.whats {
+  width: 51px;
+  position: fixed;
+  /* display: flex; */
+  left: 81%;
+  top: 88%;
 }
 }
 
@@ -275,6 +289,8 @@ main {
   text-align: center;
  
 }
+
+
 }
 
 
