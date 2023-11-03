@@ -1,80 +1,376 @@
 main {
-    width: 1200px;
-    max-width: 100%;
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+
+
+}
+
+.navbar-light .navbar-toggler {
+  background: #449644;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+  color: #005200;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #005200;
+}
+
+.bg-light {
+  border-bottom: #005200 solid 2px;
+}
+
+.navbar-toggler {
+  position: absolute;
+  left: 82%;
+}
+
+.img-logo {
+  vertical-align: middle;
+  border-style: none;
+  width: 32%;
+  border-radius: 10%;
+}
+
+
+.img-logo2 {
+  vertical-align: middle;
+  border-style: none;
+  width: 24%;
+  border-radius: 100%;
+}
+
+.card {
+  margin: 40px 4%;
+  text-align: center;
+  border: 3px solid #0a5a0a;
+  width: 1200px;
+  max-width: 43%;
+}
+
+.banner {
+  width: 79%;
+
+}
+
+.banner-foto {
+  text-align: center;
+  margin: 0 auto;
+
+
+
+}
+
+.navbar-collapse {
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  -ms-flex-positive: 1;
+  flex-grow: 0;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.navbar {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+}
+
+.all-cards {
+  margin: 5%;
+}
+
+.destaque-cards {
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.historia {
+  width: 80%;
+  padding-bottom: 3%;
+  max-width: 940px;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+}
+
+.div-foto{
+  /* text-align: center; */
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.historia img {
+  width: 70%;
+
+}
+
+.text-hist {
+  text-align: center;
+  width: 70%;
+  margin: 7% auto;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #0a5a0a;
+  border-color: #2b752b;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #b4ff9a;
+  border-color: #90f76e;
+}
+
+
+.btn {
+  display: inline-block;
+  font-weight: 200;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 4%;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.roda-footer {
+
+  background-color: #5fa05f;
+  text-align: center;
+
+
+}
+
+.navegar {
+  margin: 2%;
+
+
+}
+
+
+.img-footer {
+  width: 50px;
+}
+
+#tik-tok {
+  width: 54px;
+}
+
+.carousel {
+  position: relative;
+  width: 1100px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.logoss {
+  margin: 0 0 69px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+}
+
+.icons-logo{
+  margin: 3%;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #005200;
+ 
+}
+
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+  margin: 4%;
+  color: #005200;
+
+}
+
+p {
+  text-align: center;
+  font-size: 18px;
+  margin: 2%;
+  color: #005200;
+}
+
+h5 {
+
+  text-align: center;
+  font-size: 22px;
+  margin: 2%;
+  color: #005200;
+
+}
+
+.contatos-logos {
+  text-align: center;
+  margin-bottom: 4%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.maquina {
+  text-align: center;
+}
+
+.maquina-foto {
+  width: 30%;
+  max-width: 300px;
+  min-width: 189px;
+  margin: 3% 0 10% 0;
+}
+
+
+.text-contato {
+  margin: 4% 0 5% 0;
+  font-size: 15px;
+}
+
+.foto-aline {
+  border: 2px solid #5baf5b;
+  border-radius: 5px;
+
+}
+
+
+.carousel-indicators .active {
+  background-color: #005200;
+}
+
+.carousel-indicators li {
+  position: relative;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  width: 30px;
+  height: 3px;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #3fc95f;
+}
+
+.whats {
+  width: 63px;
+  position: fixed;
+  left: 89%;
+  top: 86%;
+}
+
+
+
+element.style {
+  width: 70%;
+}
+
+
+
+
+@media screen and (min-width: 350px) and (max-width: 499px) {
+  .roda-footer {
+    background-color: #5fa05f;
+    text-align: center;
+
+  }
+
+
+  .whats {
+    width: 51px;
+    position: fixed;
+    /* display: flex; */
+    left: 81%;
+    top: 88%;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .roda-footer {
+    background-color: #5fa05f;
+    text-align: center;
+
+  }
+
+
+}
+
+
+@media screen and (min-width: 500px) and (max-width: 700px) {
+  .whats {
+    width: 53px;
+    position: fixed;
+    left: 87%;
+    top: 89%;
+}
+}
+
+@media screen and (max-width: 800px) {
+  .destaque-cards {
+    display: block;
+    max-width: 1000px;
     margin: 0 auto;
-
-
-  }
-
-  .navbar-light .navbar-toggler {
-    background: #449644;
-  }
-
-  .navbar-light .navbar-nav .active>.nav-link,
-  .navbar-light .navbar-nav .nav-link.active,
-  .navbar-light .navbar-nav .nav-link.show,
-  .navbar-light .navbar-nav .show>.nav-link {
-    color: #005200;
-  }
-
-  .navbar-light .navbar-nav .nav-link {
-    color: #005200;
-  }
-
-  .bg-light {
-    border-bottom: #005200 solid 2px;
-  }
-
-  .navbar-toggler {
-    position: absolute;
-    left: 82%;
-  }
-
-  .img-logo {
-    vertical-align: middle;
-    border-style: none;
-    width: 32%;
-    border-radius: 10%;
-  }
-
-
-  .img-logo2 {
-    vertical-align: middle;
-    border-style: none;
-    width: 32%;
-    border-radius: 100%;
   }
 
   .card {
-
     margin: 38px auto;
     text-align: center;
     border: 3px solid #0a5a0a;
     width: 1000px;
-    max-width: 50%;
+    max-width: 100%;
   }
 
-  .banner {
-    width: 79%;
-
-  }
-
-  .banner-foto {
+  .card {
+    margin: 38px auto;
     text-align: center;
-    margin: 0 auto;
+    border: 3px solid #0a5a0a;
+    width: 1000px;
+    max-width: 80%;
+}
+
+}
 
 
 
+@media screen and (max-width: 991px) {
+  .img-logo {
+    left: 30%;
+    vertical-align: middle;
+    border-style: none;
+    width: 41%;
+    position: relative;
   }
 
-  .navbar-collapse {
-    -ms-flex-preferred-size: 100%;
-    flex-basis: 100%;
-    -ms-flex-positive: 1;
-    flex-grow: 0;
-    -ms-flex-align: center;
-    align-items: center;
-  }
 
   .navbar {
     position: relative;
@@ -85,256 +381,33 @@ main {
     -ms-flex-align: center;
     align-items: center;
     -ms-flex-pack: justify;
-    justify-content: center;
+    justify-content: flex-start;
     padding: 0.5rem 1rem;
   }
 
-  .all-cards {
-    margin: 5%;
-  }
-
-  .destaque-cards {
-    display: flex;
-    max-width: 1000px;
-    margin: 0 auto;
-  }
-
-  .historia {
-    width: 80%;
-    padding-bottom: 3%;
-    max-width: 800px;
-    text-align: center;
-    margin: 0 auto;
-
-  }
-
-  .historia img {
-    width: 70%;
-
-  }
-
-  .text-hist {
-    text-align: center;
-    width: 70%;
-    margin: 7% auto;
-  }
-
-  .btn-primary {
-    color: #fff;
-    background-color: #0a5a0a;
-    border-color: #2b752b;
-  }
-
-  .btn-primary:hover {
-    color: #fff;
-    background-color: #b4ff9a;
-    border-color: #90f76e;
-  }
+}
 
 
-  .btn {
-    display: inline-block;
-    font-weight: 200;
-    text-align: center;
-    white-space: nowrap;
+@media screen and (max-width: 1000px) {
+
+.historia {
+  width: 80%;
+  padding-bottom: 3%;
+  max-width: 940px;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+}
+
+@media screen and (max-width: 1071px) {
+  .img-logo {
+
     vertical-align: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    border: 1px solid transparent;
-    padding: 4%;
-    font-size: 1rem;
-    line-height: 1.5;
-    border-radius: 0.25rem;
-    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-  }
-
-  .roda-footer {
-
-    background-color: #5fa05f;
-    text-align: center;
-    
-    
-  }
-
-  .navegar{
-    margin: 2%;
-
-
-  }
-
-
-  .img-footer{
-    width: 50px;
-  }
-
-  #tik-tok{
-    width: 54px;
-  }
-
-  .logoss{
-
-    margin: 20px 0 40px 0;
-  }
-
-  .nav-link{
-    text-decoration: none;
-    color:#005200
-  }
-
-
-  h1{
-    text-align: center;
-    font-size: 30px;
-    margin: 4%;
-    color: #005200;
-
-  }
-  
-  p{
-    text-align: center;
-    font-size: 18px;
-    margin: 2%;
-    color: #005200;
-  }
-
-  h5{
-
-    text-align: center;
-    font-size: 22px;
-    margin: 2%;
-    color: #005200;
-
-  }
-
-  .contatos-logos {
-    text-align: center;
-    margin-bottom: 4%;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-}
-
-.maquina{
-    text-align: center;
-}
-
-.maquina-foto {
-    width: 30%;
-    max-width: 300px;
-    min-width: 189px;
-    margin: 3% 0 10% 0;
-}
-
-
-    .text-contato {
-        margin: 4% 0 5% 0;
-        font-size: 15px;
-    }
-
-    .foto-aline{
-        border: 2px solid #5baf5b;
-        border-radius: 5px;
-
-    }
-
-
-    .carousel-indicators .active {
-      background-color: #005200;
-  }
-
-  .carousel-indicators li {
+    border-style: none;
+    width: 41%;
     position: relative;
-    -ms-flex: 0 1 auto;
-    flex: 0 1 auto;
-    width: 30px;
-    height: 3px;
-    margin-right: 3px;
-    margin-left: 3px;
-    text-indent: -999px;
-    cursor: pointer;
-    background-color: #3fc95f;
-}
-
-.whats {
-  width: 88px;
-  position: fixed;
-  left: 87%;
-  top: 77%;
-}
-
-
-  @media screen and (min-width: 350px) and (max-width: 499px) {
-  .roda-footer {
-  background-color: #5fa05f;
-  text-align: center;
-  
-}
-
-
-.whats {
-  width: 51px;
-  position: fixed;
-  /* display: flex; */
-  left: 81%;
-  top: 88%;
-}
-}
-
-
-@media screen and (max-width: 500px) {
-  .roda-footer {
-  background-color: #5fa05f;
-  text-align: center;
- 
-}
-
-
-}
-
-
-  @media screen and (max-width: 800px) {
-    .destaque-cards {
-      display: block;
-      max-width: 1000px;
-      margin: 0 auto;
-    }
   }
-
-
-
-  @media screen and (max-width: 991px) {
-    .img-logo {
-      left: 30%;
-      vertical-align: middle;
-      border-style: none;
-      width: 41%;
-      position: relative;
-    }
-
-
-    .navbar {
-      position: relative;
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-      -ms-flex-align: center;
-      align-items: center;
-      -ms-flex-pack: justify;
-      justify-content: flex-start;
-      padding: 0.5rem 1rem;
-    }
-
-  }
-
-  @media screen and (max-width: 1071px) {
-    .img-logo {
-
-      vertical-align: middle;
-      border-style: none;
-      width: 41%;
-      position: relative;
-    }
-  }
+}
