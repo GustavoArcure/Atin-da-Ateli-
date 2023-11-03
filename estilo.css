@@ -217,11 +217,18 @@ h1 {
 }
 
 p {
-  text-align: justify;
+  text-align: center;
   font-size: 18px;
   margin: 2%;
   color: #005200;
 }
+
+.text-history{
+    text-align: justify;
+    font-size: 18px;
+    margin: 2%;
+    color: #005200;
+  }
 
 h5 {
 
